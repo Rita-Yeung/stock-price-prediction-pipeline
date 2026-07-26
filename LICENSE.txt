@@ -1,0 +1,9 @@
+Copyright (c) 2026 Rita Yeung. All rights reserved.
+
+All code and content in this project are protected by copyright law.
+ 
+Without the explicit written authorization of the author, no one may copy, modify, distribute, reproduce, or use this project for any commercial profit-making activities.
+
+本專案之所有程式碼與內容均受著作權法保護。
+
+未經作者明確書面授權，任何人不得擅自複製、修改、散布、轉載或將本專案用於任何商業營利行為。 

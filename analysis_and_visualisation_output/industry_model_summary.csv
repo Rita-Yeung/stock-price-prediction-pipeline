@@ -1,0 +1,10 @@
+﻿Industry,Best_Model,Optimal_Feature_Ratio,No_of_Features,No_of_Companies,R2_Score
+"Agriculture, Forestry and Fishing",Linear Regression,Top 10%,3,5,0.6976987983713085
+Construction,SVR,Top 80%,28,19,0.2017752873816765
+"Finance, Insurance and Real Estate",SVR,Top 80%,28,44,0.6662852080173818
+Manufacturing,SVR,Top 30%,10,710,-0.0004939453516052961
+Mining,Decision Tree,Top 50%,17,42,0.7905218947831809
+Retail Trade,Decision Tree,Top 100%,35,98,0.8531773687759874
+Services,SVR,Top 100%,35,301,0.310981232089387
+"Transportation, Comm, Electric, Gas & Sanitary",SVR,Top 100%,35,98,0.615306398727429
+Wholesale Trade,Decision Tree,Top 90%,30,49,0.9134803273571239
