@@ -63,13 +63,29 @@ The pipeline successfully processes data and generates predictive models as well
 
 本管道成功處理了資料並產出了預測模型與視覺化見解。以下展示部分突顯主要發現的核心圖表：
 
+<img width="2982" height="2370" alt="fig1a_overall_correlation_with_stock_price" src="https://github.com/user-attachments/assets/7adbbf06-d9fb-40c0-97f6-f9a8fea195c5" />
+<img width="6587" height="4915" alt="fig1b_factor_correlation_with_stock_price_by_broad_industry" src="https://github.com/user-attachments/assets/65ca1cb1-d8b2-4299-8715-75e2f6043deb" />
+<img width="5969" height="5310" alt="fig2_relationship_of_financial_ratios_to_stock_price_in_each_broad_industry_over_time" src="https://github.com/user-attachments/assets/cf70a2ac-8ca9-49de-85c3-30ed2ff2389c" />
+
+
 - **Figs 0–4: Data Correlation to Stock Price**
   - For Figs 1a and 1b, using logarithmic transformation can effectively elevate correlation coefficient values with stock prices to a more significant level.
   - In Fig 1b, factor correlation distributions among different industry groups vary significantly. Therefore, training predictive models on each individual group maximizes model predictive accuracy.
   - In Fig 2, green dotted lines indicate financial ratios that theoretically benefit a company when increased, while red dotted lines indicate the reverse. The effects of changes in financial ratios are not easily observed directly, showing both beneficial and adverse effects across industry groups. Consequently, the consequences of financial ratio changes cannot be easily interpreted as a direct one-size-fits-all rule.
 
+<img width="5970" height="4925" alt="fig6_model_error_over_study_period" src="https://github.com/user-attachments/assets/21be1f1f-9898-4352-bad2-793299c3951c" />
+
+
 - **Figs 5–7: Stock Price Prediction via Reference Book Formula**
   - The accuracy level of theoretical stock prices using the reference book formula is relatively low, which may stem from structural differences between the Japanese and U.S. stock markets.
+
+<img width="2970" height="1472" alt="Retail Trade_figa_model_accuracy_comparison" src="https://github.com/user-attachments/assets/8609c7ce-3e60-4d54-b2ea-0c6131c3b218" />
+<img width="1883" height="1407" alt="Retail Trade_figb_actual_vs_predicted" src="https://github.com/user-attachments/assets/f1df2691-4df9-49f2-aecd-6f0a9b3d98e3" />
+<img width="2321" height="1407" alt="Retail Trade_figc_case_study_ticker_NSIT_stock_price_over_time" src="https://github.com/user-attachments/assets/57659ea2-19c3-4877-9f33-fdf964acad2c" />
+<img width="2969" height="1472" alt="Manufacturing_figa_model_accuracy_comparison" src="https://github.com/user-attachments/assets/bf343fbb-abfc-4dda-9a3a-67f1d670ab6e" />
+<img width="1937" height="1407" alt="Manufacturing_figb_actual_vs_predicted" src="https://github.com/user-attachments/assets/d81d7d29-e220-4a06-aed8-47e78d1fc8d2" />
+<img width="2321" height="1407" alt="Manufacturing_figc_case_study_ticker_DCO_stock_price_over_time" src="https://github.com/user-attachments/assets/860be7ff-3100-4639-b97c-efd4571d7708" />
+
 
 - **Industry Group Analysis (Figs a–c) and Top Market Cap Companies (Fig d)**
   - Model accuracy, parity plots, and case studies (Figs a–d) show that some industry groups (e.g., Wholesale Trade, Retail Trade) achieve high accuracy in predicting test data, whereas others (e.g., Manufacturing, Finance, Insurance, and Real Estate) exhibit lower accuracy.
