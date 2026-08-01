@@ -17,6 +17,19 @@ This project is inspired by the published book *How to Find "10-Bagger" Stocks f
 
 ---
 
+### 🔍 Scope & Data Selection Rationale (資料範圍與選定邏輯)
+To ensure data integrity, the pipeline operates under the following explicit data boundaries:
+* **Annual vs. Quarterly Data:** The pipeline focuses exclusively on **annual financial reports**. Quarterly data was excluded due to widespread missing values and inconsistent reporting formats across companies. Annual statements provide a sufficiently complete and standardized dataset for robust fundamental analysis.
+* **Time Horizon (2019 Onwards):** Data collection is scoped to **2019 and later**. An investigation during development revealed that many critical financial metrics and structured reporting tags were either not legally mandated or sparsely populated on EDGAR prior to this period. Limiting the scope to 2019+ ensures high data reliability and a sufficient sample size to complete the study.
+* **Fundamental Valuation Focus:** Despite the title "Stock Price Prediction Pipeline," this project evaluates long-term **fundamental financial valuation** rather than short-term technical price movements or daily trading volatility.
+
+為確保資料品質，本管道採取了以下的資料範圍設定：
+* **年度資料 vs. 季度資料：** 本專案專注於**年度財務報表（Annual Data）**。由於季度資料常有大量缺失值及申報不一致的情況，年度資料相對完整且標準化，足以支撐整體基本面分析。
+* **時間範圍（2019 年起）：** 資料收集範圍設定在 **2019 年及以後**。在開發過程中發現，2019 年之前的許多關鍵財務資訊在 SEC EDGAR 系統中並未全面強制申報或結構化，早期資料缺失嚴重。設定此時間門檻可確保數據品質與足夠的樣本量。
+* **基本面價值導向：** 儘管專案名稱為「Stock Price Prediction Pipeline」，其本質是利用**基本面財務數據**進行公司價值的評估與模型預測，而非短期的每日股價走勢或高頻技術分析預測。
+
+---
+
 ## 🗂️ Repository Structure (倉庫結構)
 
 - **ETL script.py**: 1st step - Extracts, transforms, and loads financial data from EDGAR and yfinance.
