@@ -1,9 +1,9 @@
 Copyright (c) 2026 Rita Yeung. All rights reserved.
 
-All code and content in this project are protected by copyright law.
- 
-Without the explicit written authorization of the author, no one may copy, modify, distribute, reproduce, or use this project for any commercial profit-making activities.
+1. Usage Restrictions:
+All code and content in this project are protected by copyright law. Without the explicit written authorization of the author, no one may copy, modify, distribute, reproduce, or use this project for any commercial profit-making activities.
+本專案之所有程式碼與內容均受著作權法保護。未經作者明確書面授權，任何人不得擅自複製、修改、散布、轉載或將本專案用於任何商業營利行為。
 
-本專案之所有程式碼與內容均受著作權法保護。
-
-未經作者明確書面授權，任何人不得擅自複製、修改、散布、轉載或將本專案用於任何商業營利行為。 
+2. Disclaimer (No Warranty):
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+本軟體係依「現狀」提供，不提供任何形式之明示或暗示擔保（包含但不限於適銷性、特定目的之適用性及不侵權）。無論係基於合約、侵權或其他法律關係，作者或著作權人不對因本軟體或使用本軟體所產生之任何索賠、損害或其他責任負責。
